@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+    <title>HOME</title>
+		<meta charset="utf-8" name="viewport" content="width=device-width; initial-scale=1.0">
+		<link href="project.css" media="screen" rel="stylesheet" type="text/css"/>
+		<script src="project.js"></script>
+	</head>
+	<body>
+		<div id="navBar"> 
+			<a id = "active" href="home.html">HOME</a>
+			<a href = "game.html" > DAILY GAME</a>
+			<a href = "news.html">NEWS </a> 
+			<a href= "about.html"> ABOUT </a>
+			<a href = "contact.html"> CONTACT</a>
+		</div>
+		<div id="title">Daily Online Newspaper</div> 
+		<p id = "pTitle"> <br>Welcome!</p>
+		<p id ="section"> Thank you for checking out my new website, I would love for you to check out all the amentities available for you. There is a new game every day as well as a short description of important news. Click on the "about" tab, or <a href= "about.html"> HERE</a> to learn more about me! Click on my "contact" tab, or <a href = "contact.html">HERE</a> to get ahold of me! Thank you for looking through my new website, come again as soon as you can! <br><br> My name is Jessica Rose Harris and I am the creator of this cute, mediocre website. I'm 20 years old, and have lived in Washington state my whole life! Here's me: <br><br><img src="images/senior.jpg" alt="Senior Photo" title= "My Senior Photo" style="width:500px;height:750px";> <br><br> And here's a few of my favorite things (if you were wondering):</p>
+		<p> Top 5 favorite fruits: </p>
+		<p id ="arrays"> <script> favFruits(); </script> </p>
+		<p>Top 5 favorite animals: </p>
+		<p id ="arrays"> <script> favAnimals(); </script> </p>
+		<p> Top 5 favorite music genres: </p>
+		<p id ="arrays"> <script> favMusic(); </script>  </p>
+		
+		
+</html>
